@@ -166,3 +166,4 @@
 ;; by xccui
 (require 'init-highlight-parentheses)
 (require 'init-clojure-cider)
+(require 'init-osx-keys)
