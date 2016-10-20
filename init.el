@@ -162,3 +162,7 @@
 ;;; no-byte-compile: t
 ;;; End:
 (put 'erase-buffer 'disabled nil)
+
+;; by xccui
+(require 'init-highlight-parentheses)
+(require 'init-clojure-cider)
