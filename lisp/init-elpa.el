@@ -57,6 +57,7 @@ But you may use safer HTTPS instead.")
     workgroups2
     company-c-headers
     ;;added by xccui
+	highlight-parentheses
     cider
     )
   "Don't install any Melpa packages except these packages")
@@ -258,5 +259,7 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'quack) ;; for scheme
 (require-package 'hydra)
 ;;added by xccui
+(require-package 'highlight-parentheses)
 (require-package 'cider)
+
 (provide 'init-elpa)

@@ -131,6 +131,10 @@
   (require 'init-emacs-w3m)
   (require 'init-hydra)
 
+  ;; added by xccui
+  (require 'init-clojure-cider)
+  (require 'init-osx-keys)
+
   ;; {{ idle require other stuff
   (setq idle-require-idle-delay 2)
   (setq idle-require-symbols '(init-misc-lazy
@@ -163,7 +167,3 @@
 ;;; End:
 (put 'erase-buffer 'disabled nil)
 
-;; by xccui
-(require 'init-highlight-parentheses)
-(require 'init-clojure-cider)
-(require 'init-osx-keys)
