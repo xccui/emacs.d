@@ -13,7 +13,6 @@ But you may use safer HTTPS instead.")
     color-theme
     ivy
     counsel
-    swiper
     wgrep
     robe
     groovy-mode
@@ -68,18 +67,17 @@ But you may use safer HTTPS instead.")
 (if melpa-use-https-repo
     (setq package-archives
           '(;; uncomment below line if you need use GNU ELPA
-            ("gnu" . "https://elpa.gnu.org/packages/")
-            ("popkit" . "https://elpa.popkit.org/packages/")
-            ;("melpa" . "https://melpa.org/packages/")
-            ("melpa-stable" . "https://stable.melpa.org/packages/")
-            ))
+            ;; ("gnu" . "https://elpa.gnu.org/packages/")
+            ("my-js2-mode" . "https://raw.githubusercontent.com/redguardtoo/js2-mode/release/")
+            ("melpa" . "https://melpa.org/packages/")
+            ("melpa-stable" . "https://stable.melpa.org/packages/")))
   (setq package-archives
         '(;; uncomment below line if you need use GNU ELPA
-          ("gnu" . "http://elpa.gnu.org/packages/")
-          ("popkit" . "http://elpa.popkit.org/packages/")
-          ;("melpa" . "http://melpa.org/packages/")
-          ("melpa-stable" . "http://stable.melpa.org/packages/")
-          )))
+          ;; ("gnu" . "http://elpa.gnu.org/packages/")
+          ("my-js2-mode" . "http://raw.githubusercontent.com/redguardtoo/js2-mode/release/")
+          ("melpa" . "http://melpa.org/packages/")
+          ("melpa-stable" . "http://stable.melpa.org/packages/")))
+  )
 
 
 ;; Un-comment below line if your extract https://github.com/redguardtoo/myelpa/archive/master.zip into ~/myelpa/
